@@ -68,7 +68,6 @@
                     <a class="nav-icon position-relative text-decoration-none" href="https://sites.google.com/uandina.edu.pe/studenttech" target="_blank">
                         <i class="fa fa-fw fa-globe text-dark mr-3"></i>
                     </a>
-                    <!-- Botón de Únete -->
                     <a class="btn btn-success text-white fw-bold px-4 rounded-pill shadow-sm" href="contact.html" style="background-color: #EE2A6E !important; border:none;">
                         Únete al Club
                     </a>
@@ -78,12 +77,29 @@
     </nav>
     <!-- Close Header -->
 
+    <!-- Modal -->
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Buscar actividad...">
+                    <button type="submit" class="input-group-text bg-success text-light">
+                        <i class="fa fa-fw fa-search text-white"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
     <!-- Page Banner -->
     <div class="container-fluid bg-light py-5" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);">
         <div class="col-md-8 m-auto text-center">
-            <h1 class="display-5 fw-bold" style="color: #00417B;">Plan Operativo Institucional 2026</h1>
+            <h1 class="display-5 fw-bold" style="color: #00417B;">Plan Operativo 2026</h1>
             <p class="lead text-muted">
-                Eje Estratégico 56: Investigación e Innovación. Conoce las actividades y proyectos programados para el desarrollo de competencias en nuestra comunidad universitaria.
+                Visualización de metas y actividades del Círculo de Estudios Student Tech Club UAC para el presente año académico.
             </p>
         </div>
     </div>
@@ -93,139 +109,120 @@
         <div class="row">
             <!-- Sidebar Filtros -->
             <div class="col-lg-3">
-                <h2 class="h4 pb-4 fw-bold" style="color: #00CEFE;">Filtrar Proyectos</h2>
+                <h2 class="h4 pb-4 fw-bold" style="color: #00CEFE;">Filtrar POI</h2>
                 <ul class="list-unstyled templatemo-accordion">
                     <li class="pb-3">
                         <a class="collapsed d-flex justify-content-between h5 text-decoration-none fw-bold" href="#" style="color: #00417B;">
-                            Por Trimestre
+                            Cronograma
                             <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
                         </a>
                         <ul class="collapse show list-unstyled pl-3">
-                            <li><a class="text-decoration-none text-muted" href="#">1er Trimestre</a></li>
-                            <li><a class="text-decoration-none text-muted" href="#">2do Trimestre</a></li>
-                            <li><a class="text-decoration-none text-muted" href="#">3er Trimestre</a></li>
-                            <li><a class="text-decoration-none text-muted" href="#">4to Trimestre</a></li>
+                            <li><a class="text-decoration-none text-muted small" href="#">Primer Semestre</a></li>
+                            <li><a class="text-decoration-none text-muted small" href="#">Segundo Semestre</a></li>
                         </ul>
                     </li>
                     <li class="pb-3">
                         <a class="collapsed d-flex justify-content-between h5 text-decoration-none fw-bold" href="#" style="color: #00417B;">
-                            Tipo de Actividad
+                            Tipo de Gestión
                             <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
                         </a>
                         <ul id="collapseTwo" class="collapse list-unstyled pl-3">
-                            <li><a class="text-decoration-none text-muted" href="#">Capacitación</a></li>
-                            <li><a class="text-decoration-none text-muted" href="#">Evento / Hackaton</a></li>
-                            <li><a class="text-decoration-none text-muted" href="#">Investigación</a></li>
+                            <li><a class="text-decoration-none text-muted small" href="#">Capacitaciones</a></li>
+                            <li><a class="text-decoration-none text-muted small" href="#">Investigación</a></li>
+                            <li><a class="text-decoration-none text-muted small" href="#">Eventos Tech</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
 
-            <!-- Grilla de Actividades (POI 2026) -->
+            <!-- Grilla de Proyectos -->
             <div class="col-lg-9">
-                <div class="row mb-4">
-                    <div class="col-12">
-                        <h3 class="fw-bold" style="color: #00417B;">Actividades Programadas</h3>
-                        <hr>
+                <div class="row mb-4 align-items-center">
+                    <div class="col-md-6">
+                        <h3 class="fw-bold m-0" style="color: #00417B;">Actividades Operativas</h3>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <span class="text-muted small">Total Presupuesto: S/ 5,000.00</span>
                     </div>
                 </div>
+                <hr>
 
                 <div class="row">
                     <!-- Actividad 1 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100 product-wap rounded-3 shadow-sm border-0">
-                            <div class="card rounded-top">
-                                <img class="card-img rounded-top img-fluid" src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&h=400&q=80" alt="IA">
-                            </div>
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="fw-bold" style="color: #00417B;">Capacitación en Agentes de IA</h5>
-                                <p class="text-muted mb-3" style="font-size: 14px;">Automatización de procesos - Código: 264165</p>
-                                <div class="mt-auto">
-                                    <span class="badge rounded-pill mb-2" style="background-color: #00CEFE; color: #00417B;">Capacitación</span>
-                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0 mt-2">
-                                        <li><span class="badge" style="background-color: #EE2A6E;">Meta: 100% (2do Trimestre)</span></li>
-                                    </ul>
-                                    <p class="text-start mb-0 mt-3 fw-bold" style="color: #198754;"><i class="fas fa-coins me-1"></i> Presupuesto: S/ 1,200.00</p>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm profile-card">
+                            <img class="card-img-top" src="https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&w=600&q=80" alt="IA">
+                            <div class="card-body">
+                                <span class="badge mb-2" style="background-color: #00CEFE; color: #00417B;">Capacitación</span>
+                                <h5 class="fw-bold" style="color: #00417B;">Agentes de IA</h5>
+                                <p class="small text-muted mb-3">Automatización de procesos - Cod: 264165</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold" style="color: #EE2A6E;">Meta: Q2</span>
+                                    <span class="fw-bold text-success">S/ 1,200</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Actividad 2 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100 product-wap rounded-3 shadow-sm border-0">
-                            <div class="card rounded-top">
-                                <img class="card-img rounded-top img-fluid" src="https://images.unsplash.com/photo-1556761175-5973dc0f32d7?auto=format&fit=crop&w=600&h=400&q=80" alt="Startups">
-                            </div>
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="fw-bold" style="color: #00417B;">Seminario Taller de Financiamiento</h5>
-                                <p class="text-muted mb-3" style="font-size: 14px;">Para ideas de startups - Código: 264171</p>
-                                <div class="mt-auto">
-                                    <span class="badge rounded-pill mb-2" style="background-color: #00CEFE; color: #00417B;">Capacitación</span>
-                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0 mt-2">
-                                        <li><span class="badge" style="background-color: #A255FF;">Meta: 100% (3er Trimestre)</span></li>
-                                    </ul>
-                                    <p class="text-start mb-0 mt-3 fw-bold" style="color: #198754;"><i class="fas fa-coins me-1"></i> Presupuesto: S/ 1,000.00</p>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm profile-card">
+                            <img class="card-img-top" src="https://images.unsplash.com/photo-1588856122867-363b0aa7f598?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnR1cHN8ZW58MHx8MHx8fDA%3D?auto=format&fit=crop&w=600&q=80" alt="Startups">
+                            <div class="card-body">
+                                <span class="badge mb-2" style="background-color: #A255FF;">Estrategia</span>
+                                <h5 class="fw-bold" style="color: #00417B;">Taller Startups</h5>
+                                <p class="small text-muted mb-3">Financiamiento de ideas - Cod: 264171</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold" style="color: #EE2A6E;">Meta: Q3</span>
+                                    <span class="fw-bold text-success">S/ 1,000</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Actividad 3 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100 product-wap rounded-3 shadow-sm border-0">
-                            <div class="card rounded-top">
-                                <img class="card-img rounded-top img-fluid" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&h=400&q=80" alt="Servers">
-                            </div>
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="fw-bold" style="color: #00417B;">Gestión de Active Directory</h5>
-                                <p class="text-muted mb-3" style="font-size: 14px;">Taller técnico Windows Server - Código: 264178</p>
-                                <div class="mt-auto">
-                                    <span class="badge rounded-pill mb-2" style="background-color: #00CEFE; color: #00417B;">Capacitación</span>
-                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0 mt-2">
-                                        <li><span class="badge" style="background-color: #FF6139;">Meta: 100% (4to Trimestre)</span></li>
-                                    </ul>
-                                    <p class="text-start mb-0 mt-3 fw-bold" style="color: #198754;"><i class="fas fa-coins me-1"></i> Presupuesto: S/ 300.00</p>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm profile-card">
+                            <img class="card-img-top" src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=600&q=80" alt="Servers">
+                            <div class="card-body">
+                                <span class="badge mb-2" style="background-color: #FF6139;">Taller Técnico</span>
+                                <h5 class="fw-bold" style="color: #00417B;">Active Directory</h5>
+                                <p class="small text-muted mb-3">Windows Server Admin - Cod: 264178</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold" style="color: #EE2A6E;">Meta: Q4</span>
+                                    <span class="fw-bold text-success">S/ 300</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Actividad 4 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100 product-wap rounded-3 shadow-sm border-0">
-                            <div class="card rounded-top">
-                                <img class="card-img rounded-top img-fluid" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&h=400&q=80" alt="Hackaton">
-                            </div>
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="fw-bold" style="color: #00417B;">Hackaton Student Tech</h5>
-                                <p class="text-muted mb-3" style="font-size: 14px;">Competencia de desarrollo - Código: 264174</p>
-                                <div class="mt-auto">
-                                    <span class="badge rounded-pill mb-2" style="background-color: #FFDF43; color: #00417B;">Actividad Práctica</span>
-                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0 mt-2">
-                                        <li><span class="badge" style="background-color: #A255FF;">Meta: 100% (3er Trimestre)</span></li>
-                                    </ul>
-                                    <p class="text-start mb-0 mt-3 fw-bold" style="color: #198754;"><i class="fas fa-coins me-1"></i> Presupuesto: S/ 1,500.00</p>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm profile-card">
+                            <img class="card-img-top" src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80" alt="Hackaton">
+                            <div class="card-body">
+                                <span class="badge mb-2" style="background-color: #EE2A6E;">Evento</span>
+                                <h5 class="fw-bold" style="color: #00417B;">Hackaton STC</h5>
+                                <p class="small text-muted mb-3">Competencia desarrollo - Cod: 264174</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold" style="color: #EE2A6E;">Meta: Q3</span>
+                                    <span class="fw-bold text-success">S/ 1,500</span>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Actividad 5 -->
-                    <div class="col-md-6 mb-4">
-                        <div class="card h-100 product-wap rounded-3 shadow-sm border-0">
-                            <div class="card rounded-top">
-                                <img class="card-img rounded-top img-fluid" src="https://images.unsplash.com/photo-1540317580384-e5d43867caa6?auto=format&fit=crop&w=600&h=400&q=80" alt="Congreso">
-                            </div>
-                            <div class="card-body d-flex flex-column">
-                                <h5 class="fw-bold" style="color: #00417B;">Participación en Congreso</h5>
-                                <p class="text-muted mb-3" style="font-size: 14px;">Eventos de investigación - Código: 264183</p>
-                                <div class="mt-auto">
-                                    <span class="badge rounded-pill mb-2" style="background-color: #FFDF43; color: #00417B;">Actividad Externa</span>
-                                    <ul class="w-100 list-unstyled d-flex justify-content-between mb-0 mt-2">
-                                        <li><span class="badge" style="background-color: #FF6139;">Meta: 100% (4to Trimestre)</span></li>
-                                    </ul>
-                                    <p class="text-start mb-0 mt-3 fw-bold" style="color: #198754;"><i class="fas fa-coins me-1"></i> Presupuesto: S/ 1,000.00</p>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card h-100 border-0 shadow-sm profile-card">
+                            <img class="card-img-top" src="https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D?auto=format&fit=crop&w=600&q=80" alt="Congreso">
+                            <div class="card-body">
+                                <span class="badge mb-2" style="background-color: #FFDF43; color: #00417B;">Investigación</span>
+                                <h5 class="fw-bold" style="color: #00417B;">Congreso Tech</h5>
+                                <p class="small text-muted mb-3">Eventos científicos - Cod: 264183</p>
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <span class="fw-bold" style="color: #EE2A6E;">Meta: Q4</span>
+                                    <span class="fw-bold text-success">S/ 1,000</span>
                                 </div>
                             </div>
                         </div>
@@ -237,51 +234,39 @@
     <!-- End Content -->
 
     <!-- Start Aliados -->
-    <section class="bg-light py-5">
+    <section class="bg-light py-5 border-top">
         <div class="container my-4">
             <div class="row text-center py-3">
                 <div class="col-lg-6 m-auto">
-                    <h2 class="h2 fw-bold" style="color: #00417B;">Nuestros Aliados y Patrocinadores</h2>
-                    <p class="text-muted">
-                        Trabajamos de la mano con instituciones que creen en el ecosistema tecnológico.
-                    </p>
+                    <h2 class="h2 fw-bold" style="color: #00417B;">Nuestros Aliados</h2>
+                    <p class="text-muted">Instituciones y empresas que colaboran con nuestro ecosistema.</p>
                 </div>
-                <div class="col-lg-9 m-auto tempaltemo-carousel">
-                    <div class="row d-flex flex-row">
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="prev">
-                                <i class="text-secondary fas fa-chevron-left"></i>
-                            </a>
+                
+                <div class="col-lg-12 m-auto mt-4">
+                    <div class="row align-items-center justify-content-center g-4">
+                        <div class="col-4 col-md-2 text-center opacity-75">
+                            <i class="fab fa-google fa-3x" style="color: #4285F4;"></i>
+                            <p class="small fw-bold mt-2">Google</p>
                         </div>
-                        <!--Carousel Wrapper-->
-                        <div class="col">
-                            <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="multi-item-example" data-bs-ride="carousel">
-                                <div class="carousel-inner product-links-wap" role="listbox">
-                                    <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="UAC Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Microsoft Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Partner Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Partner Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="col-4 col-md-2 text-center opacity-75">
+                            <i class="fas fa-network-wired fa-3x" style="color: #00417B;"></i>
+                            <p class="small fw-bold mt-2">NTT Data</p>
                         </div>
-                        <!--Controls-->
-                        <div class="col-1 align-self-center">
-                            <a class="h1" href="#multi-item-example" role="button" data-bs-slide="next">
-                                <i class="text-secondary fas fa-chevron-right"></i>
-                            </a>
+                        <div class="col-4 col-md-2 text-center opacity-75">
+                            <i class="fas fa-rocket fa-3x" style="color: #1c2d5a;"></i>
+                            <p class="small fw-bold mt-2">NASA Space</p>
+                        </div>
+                        <div class="col-4 col-md-2 text-center opacity-75">
+                            <i class="fas fa-lightbulb fa-3x" style="color: #59ab6e;"></i>
+                            <p class="small fw-bold mt-2">Incuba Andina</p>
+                        </div>
+                        <div class="col-4 col-md-2 text-center opacity-75">
+                            <i class="fas fa-vial fa-3x" style="color: #A255FF;"></i>
+                            <p class="small fw-bold mt-2">Paqarina Wasi</p>
+                        </div>
+                        <div class="col-4 col-md-2 text-center opacity-75">
+                            <i class="fab fa-windows fa-3x" style="color: #00a4ef;"></i>
+                            <p class="small fw-bold mt-2">Microsoft</p>
                         </div>
                     </div>
                 </div>
@@ -297,48 +282,35 @@
                 <div class="col-md-4 pt-5">
                     <h2 class="h2 border-bottom pb-3 border-light logo" style="color: #00CEFE;">Student Tech Club</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li>
-                            <i class="fas fa-map-marker-alt fa-fw"></i>
-                            Universidad Andina del Cusco (UAC)
-                        </li>
-                        <li>
-                            <i class="fa fa-envelope fa-fw"></i>
-                            <a class="text-decoration-none" href="mailto:ci_studenttechclub@uandina.edu.pe">ci_studenttechclub@uandina.edu.pe</a>
-                        </li>
+                        <li><i class="fas fa-map-marker-alt fa-fw"></i> Universidad Andina del Cusco</li>
+                        <li><i class="fa fa-envelope fa-fw"></i> <a class="text-decoration-none" href="mailto:ci_studenttechclub@uandina.edu.pe">ci_studenttechclub@uandina.edu.pe</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Áreas de Trabajo</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Ejes POI 2026</h2>
                     <ul class="list-unstyled text-light footer-link-list">
-                        <li><a class="text-decoration-none" href="#">Tecnología e Innovación</a></li>
-                        <li><a class="text-decoration-none" href="#">Emprendimiento y Startups</a></li>
-                        <li><a class="text-decoration-none" href="#">Alianzas y Marketing</a></li>
-                        <li><a class="text-decoration-none" href="#">Operaciones y Finanzas</a></li>
+                        <li><a class="text-decoration-none" href="#">Capacitaciones IA</a></li>
+                        <li><a class="text-decoration-none" href="#">Gestión de Startups</a></li>
+                        <li><a class="text-decoration-none" href="#">Networking Tech</a></li>
                     </ul>
                 </div>
 
                 <div class="col-md-4 pt-5">
-                    <h2 class="h2 text-light border-bottom pb-3 border-light">Enlaces Rápidos</h2>
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Navegación</h2>
                     <ul class="list-unstyled text-light footer-link-list">
                         <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
-                        <li><a class="text-decoration-none" href="about.html">Nuestra Historia</a></li>
-                        <li><a class="text-decoration-none" href="actividades.html">Plan Operativo 2026</a></li>
-                        <li><a class="text-decoration-none" href="equipo.html">Nuestro Equipo</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Nosotros</a></li>
+                        <li><a class="text-decoration-none" href="actividades.html">Proyectos</a></li>
+                        <li><a class="text-decoration-none" href="equipo.html">Equipo</a></li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="w-100 py-3" style="background-color: #002b52;">
-            <div class="container">
-                <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light text-center">
-                            Copyright &copy; 2026 Student Tech Club UAC | Ecosistema Tecnológico
-                        </p>
-                    </div>
-                </div>
+            <div class="container text-center">
+                <p class="text-light">Copyright &copy; 2026 Student Tech Club UAC | Ecosistema Tecnológico</p>
             </div>
         </div>
     </footer>
@@ -350,7 +322,6 @@
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
-    <!-- End Script -->
 </body>
 
 </html>

@@ -1,3 +1,55 @@
-/*
-Custom Css
-*/
+/* ==========================================
+   STUDENT TECH CLUB UAC - CUSTOM CSS
+   ========================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap');
+
+:root {
+    --stc-dark-blue: #00417B;
+    --stc-light-blue: #00CEFE;
+    --stc-pink: #EE2A6E;
+    --stc-yellow: #FFDF43;
+    --stc-orange: #FF6139;
+    --stc-purple: #A255FF;
+}
+
+/* Tipografía de Títulos */
+h1, h2, h3, .navbar-brand {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+/* Reemplazando el "Verde Zay" por el "Azul STC" */
+.bg-success { background-color: var(--stc-dark-blue) !important; }
+.text-success { color: var(--stc-dark-blue) !important; }
+
+/* Botones Principales (Azul a Celeste) */
+.btn-success {
+    background-color: var(--stc-dark-blue) !important;
+    border-color: var(--stc-dark-blue) !important;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.btn-success:hover {
+    background-color: var(--stc-light-blue) !important;
+    border-color: var(--stc-light-blue) !important;
+    color: var(--stc-dark-blue) !important;
+}
+
+/* Colores de las Áreas Estratégicas */
+.icon-tech { color: var(--stc-light-blue); }
+.icon-startup { color: var(--stc-pink); }
+.icon-marketing { color: var(--stc-purple); }
+.icon-finance { color: var(--stc-orange); }
+
+/* Detalles visuales */
+.stc-gradient {
+    background: linear-gradient(135deg, var(--stc-dark-blue) 0%, var(--stc-light-blue) 100%);
+    color: white;
+}
+.rule-card {
+    border-left: 4px solid var(--stc-pink);
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}

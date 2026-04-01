@@ -53,3 +53,22 @@ h1, h2, h3, .navbar-brand {
     margin-bottom: 10px;
     border-radius: 5px;
 }
+
+/* ==========================================
+   CORRECCIONES DE LA PLANTILLA ORIGINAL
+   ========================================== */
+
+/* Cambiar el hover del menú del verde original al Celeste STC */
+#templatemo_main_nav a:hover {
+    color: var(--stc-light-blue) !important;
+}
+
+/* Cambiar el icono de búsqueda y usuario al pasar el mouse */
+.nav-icon:hover i {
+    color: var(--stc-pink) !important;
+}
+
+/* Ocultar elementos de e-commerce que no sirven para un Club */
+.badge.bg-light.text-dark {
+    display: none !important; /* Oculta los numeritos del carrito */
+}

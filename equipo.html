@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Student Tech Club - Nuestro Equipo</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+
+    <!-- Fuentes y Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:wght@300;400;500;700&display=swap">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <style>
+        /* Estilos específicos para las tarjetas de perfil */
+        .profile-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .profile-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important; }
+        .icon-circle { 
+            width: 80px; height: 80px; 
+            border-radius: 50%; display: flex; align-items: center; justify-content: center; 
+            margin: 0 auto 15px auto; 
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Start Top Nav -->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top" style="background-color: #00417B !important;">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:ci_studenttechclub@uandina.edu.pe">ci_studenttechclub@uandina.edu.pe</a>
+                    <i class="fa fa-map-marker-alt mx-2 ms-4"></i>
+                    <span class="navbar-sm-brand text-light text-decoration-none">Universidad Andina del Cusco</span>
+                </div>
+                <div>
+                    <a class="text-light" href="https://www.facebook.com/techcusco/" target="_blank"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://sites.google.com/uandina.edu.pe/studenttech" target="_blank"><i class="fas fa-globe fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Top Nav -->
+
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+
+            <a class="navbar-brand logo h2 align-self-center" href="index.html">
+                <span style="color: #00417B; font-weight: 800;">StudentTech</span><span style="color: #00CEFE;">Club</span>
+            </a>
+
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-center mx-lg-auto">
+                        <li class="nav-item"><a class="nav-link mx-2" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="about.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="actividades.html">Proyectos (POI)</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 fw-bold" href="equipo.html" style="color: #00417B;">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="contact.html">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="https://sites.google.com/uandina.edu.pe/studenttech" target="_blank">
+                        <i class="fa fa-fw fa-globe text-dark mr-3"></i>
+                    </a>
+                    <!-- Botón de Únete -->
+                    <a class="btn btn-success text-white fw-bold px-4 rounded-pill shadow-sm" href="contact.html" style="background-color: #EE2A6E !important; border:none;">
+                        Únete al Club
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- Close Header -->
+
+    <!-- Page Banner -->
+    <div class="container-fluid bg-light py-5" style="background: linear-gradient(135deg, #00417B 0%, #002b52 100%);">
+        <div class="col-md-8 m-auto text-center text-white">
+            <h1 class="display-5 fw-bold text-white">Nuestro Ecosistema Humano</h1>
+            <p class="lead">
+                Conoce a los docentes y estudiantes que lideran la innovación, tecnología y emprendimiento en el Student Tech Club UAC.
+            </p>
+        </div>
+    </div>
+
+    <!-- Start Content -->
+    <div class="container py-5">
+        
+        <!-- SECCIÓN 1: ASESORES -->
+        <div class="row mb-5">
+            <div class="col-12 text-center mb-4">
+                <h2 class="fw-bold" style="color: #00417B;"><i class="material-icons align-middle me-2">school</i>Asesores Docentes</h2>
+                <hr class="w-25 mx-auto" style="border-top: 3px solid #00CEFE;">
+            </div>
+
+            <!-- Asesora -->
+            <div class="col-md-6 col-lg-4 mx-auto mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-circle" style="background-color: #e9ecef;">
+                            <i class="material-icons" style="font-size: 40px; color: #00417B;">workspace_premium</i>
+                        </div>
+                        <h5 class="fw-bold" style="color: #00417B;">Ing. Maria Isabel Acurio Gutierrez</h5>
+                        <p class="mb-2"><span class="badge" style="background-color: #00417B;">Asesor(a) - Docente</span></p>
+                        <p class="text-muted small mb-3"><i class="fas fa-envelope me-1"></i> macurio@uandina.edu.pe<br><i class="fas fa-phone me-1"></i> 984 729 554</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/DirectorioCTI.do?tipo=datosinvestigador" target="_blank" class="btn btn-sm btn-outline-primary rounded-pill">Perfil CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Coasesor -->
+            <div class="col-md-6 col-lg-4 mx-auto mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-circle" style="background-color: #e9ecef;">
+                            <i class="material-icons" style="font-size: 40px; color: #00417B;">workspace_premium</i>
+                        </div>
+                        <h5 class="fw-bold" style="color: #00417B;">Ing. Felix Estanislao Vargas Quispe</h5>
+                        <p class="mb-2"><span class="badge" style="background-color: #00417B;">Coasesor - Docente</span></p>
+                        <p class="text-muted small mb-3"><i class="fas fa-envelope me-1"></i> fvargas@uandina.edu.pe<br><i class="fas fa-phone me-1"></i> 998 879 215</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 2: JUNTA DIRECTIVA -->
+        <div class="row mb-5">
+            <div class="col-12 text-center mb-4">
+                <h2 class="fw-bold" style="color: #00417B;"><i class="material-icons align-middle me-2">groups</i>Junta Directiva</h2>
+                <hr class="w-25 mx-auto" style="border-top: 3px solid #EE2A6E;">
+            </div>
+
+            <!-- Presidente -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-circle" style="background-color: #ffe4ef;">
+                            <i class="material-icons" style="font-size: 40px; color: #EE2A6E;">star</i>
+                        </div>
+                        <h5 class="fw-bold" style="color: #00417B;">Gianella Alexandra Ramos Ticahuanca</h5>
+                        <p class="mb-2"><span class="badge" style="background-color: #EE2A6E;">Presidente</span></p>
+                        <p class="text-muted small mb-3"><i class="fas fa-envelope me-1"></i> 022100518g@uandina.edu.pe<br><i class="fas fa-phone me-1"></i> 914 008 068</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=356723" target="_blank" class="btn btn-sm btn-outline-danger rounded-pill">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Vicepresidente -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-circle" style="background-color: #ffe4ef;">
+                            <i class="material-icons" style="font-size: 40px; color: #EE2A6E;">military_tech</i>
+                        </div>
+                        <h5 class="fw-bold" style="color: #00417B;">Angieluz Damaris Quispe Tejeira</h5>
+                        <p class="mb-2"><span class="badge" style="background-color: #EE2A6E;">Vicepresidente</span></p>
+                        <p class="text-muted small mb-3"><i class="fas fa-envelope me-1"></i> 022100510f@uandina.edu.pe<br><i class="fas fa-phone me-1"></i> 984 361 115</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=439069" target="_blank" class="btn btn-sm btn-outline-danger rounded-pill">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tesorero -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-4">
+                        <div class="icon-circle" style="background-color: #ffe4ef;">
+                            <i class="material-icons" style="font-size: 40px; color: #EE2A6E;">account_balance_wallet</i>
+                        </div>
+                        <h5 class="fw-bold" style="color: #00417B;">Jesus del Aguila Garcia</h5>
+                        <p class="mb-2"><span class="badge" style="background-color: #EE2A6E;">Tesorero</span></p>
+                        <p class="text-muted small mb-3"><i class="fas fa-envelope me-1"></i> 022100994c@uandina.edu.pe<br><i class="fas fa-phone me-1"></i> 978 739 470</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=438849" target="_blank" class="btn btn-sm btn-outline-danger rounded-pill">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN 3: INTEGRANTES -->
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <h2 class="fw-bold" style="color: #00417B;"><i class="material-icons align-middle me-2">engineering</i>Integrantes</h2>
+                <hr class="w-25 mx-auto" style="border-top: 3px solid #FFDF43;">
+            </div>
+
+            <!-- Lista generada dinámicamente -->
+            <!-- Puedes copiar y pegar este bloque para más integrantes -->
+            
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Paolo Alexander Acurio Vargas</h6>
+                        <p class="text-muted small mb-1">022100127h@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=438684" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Honorio Morales Ttito</h6>
+                        <p class="text-muted small mb-1">017100466d@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=438752" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Aderly Aldair Huillca Monterola</h6>
+                        <p class="text-muted small mb-1">022100363c@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=439150" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Marco Antonio Cardenas Quispe</h6>
+                        <p class="text-muted small mb-1">021200329b@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=438683" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Angie Zulema Velarde Centeno</h6>
+                        <p class="text-muted small mb-1">022200270g@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=438682" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Luis Anthony Orellana Cusihuaman</h6>
+                        <p class="text-muted small mb-1">021201343i@uandina.edu.pe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Owen Adiel Muriel Ccopa</h6>
+                        <p class="text-muted small mb-1">026100451f@uandina.edu.pe</p>
+                        <a href="https://orcid.org/0009-0001-5113-7168" target="_blank" class="badge bg-warning text-dark text-decoration-none">ORCID</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Marcelo Joaquin Reynaga Flores</h6>
+                        <p class="text-muted small mb-1">026102262f@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=486698" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Juan Gabriel Suárez Condori</h6>
+                        <p class="text-muted small mb-1">023200624b@uandina.edu.pe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Edward Rodrigo Alarcon Valeriano</h6>
+                        <p class="text-muted small mb-1">022100138j@uandina.edu.pe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Alex Sandro Leon Guzmán</h6>
+                        <p class="text-muted small mb-1">021200610c@uandina.edu.pe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Alexandra Ttito Masias</h6>
+                        <p class="text-muted small mb-1">022100584j@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=462524" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+             <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Leonardo Del Piero Valdivia Cavides</h6>
+                        <p class="text-muted small mb-1">021101357h@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=462551" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Omar Sebastian Chura Quispe</h6>
+                        <p class="text-muted small mb-1">023200247d@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/DirectorioCTI.do?tipo=datosinvestigador" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Christian Mardavid Conde Suña</h6>
+                        <p class="text-muted small mb-1">026101007b@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/VerDatosInvestigador.do?id_investigador=486717" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Cristofer Dalmiro Soto Carbajal</h6>
+                        <p class="text-muted small mb-1">026100898k@uandina.edu.pe</p>
+                        <a href="https://ctivitae.concytec.gob.pe/appDirectorioCTI/DirectorioCTI.do?tipo=datosinvestigador" target="_blank" class="badge bg-info text-decoration-none">CTI Vitae</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Andre Marcelo Manrique Rojas</h6>
+                        <p class="text-muted small mb-1">021201040f@uandina.edu.pe</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mb-4">
+                <div class="card h-100 border-0 shadow-sm profile-card">
+                    <div class="card-body text-center p-3">
+                        <div class="icon-circle" style="background-color: #e0f9ff; width: 60px; height: 60px;">
+                            <i class="material-icons" style="font-size: 30px; color: #00CEFE;">person</i>
+                        </div>
+                        <h6 class="fw-bold" style="color: #00417B;">Gonzalo Javier Zanabria Mamani</h6>
+                        <p class="text-muted small mb-1">024100327e@uandina.edu.pe</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Content -->
+
+    <!-- Start Footer -->
+    <footer class="bg-dark" id="tempaltemo_footer" style="background-color: #00417B !important;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 border-bottom pb-3 border-light logo" style="color: #00CEFE;">Student Tech Club</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li>
+                            <i class="fas fa-map-marker-alt fa-fw"></i>
+                            Universidad Andina del Cusco (UAC)
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope fa-fw"></i>
+                            <a class="text-decoration-none" href="mailto:ci_studenttechclub@uandina.edu.pe">ci_studenttechclub@uandina.edu.pe</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Áreas de Trabajo</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="#">Tecnología e Innovación</a></li>
+                        <li><a class="text-decoration-none" href="#">Emprendimiento y Startups</a></li>
+                        <li><a class="text-decoration-none" href="#">Alianzas y Marketing</a></li>
+                        <li><a class="text-decoration-none" href="#">Operaciones y Finanzas</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4 pt-5">
+                    <h2 class="h2 text-light border-bottom pb-3 border-light">Enlaces Rápidos</h2>
+                    <ul class="list-unstyled text-light footer-link-list">
+                        <li><a class="text-decoration-none" href="index.html">Inicio</a></li>
+                        <li><a class="text-decoration-none" href="about.html">Nuestra Historia</a></li>
+                        <li><a class="text-decoration-none" href="actividades.html">Plan Operativo 2026</a></li>
+                        <li><a class="text-decoration-none" href="equipo.html">Nuestro Equipo</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 py-3" style="background-color: #002b52;">
+            <div class="container">
+                <div class="row pt-2">
+                    <div class="col-12">
+                        <p class="text-left text-light text-center">
+                            Copyright &copy; 2026 Student Tech Club UAC | Ecosistema Tecnológico
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Start Script -->
+    <script src="assets/js/jquery-1.11.0.min.js"></script>
+    <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/templatemo.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- End Script -->
+</body>
+
+</html>

@@ -1,28 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <title>Zay Shop - About Page</title>
+    <title>Student Tech Club - Nosotros</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="apple-touch-icon" href="assets/img/apple-icon.png">
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
 
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/templatemo.css">
     <link rel="stylesheet" href="assets/css/custom.css">
 
-    <!-- Load fonts style after rendering the layout styles -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <!-- Fuentes y Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Roboto:wght@300;400;500;700&display=swap">
     <link rel="stylesheet" href="assets/css/fontawesome.min.css">
-<!--
-    
-TemplateMo 559 Zay Shop
-
-https://templatemo.com/tm-559-zay-shop
-
--->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
@@ -37,7 +30,7 @@ https://templatemo.com/tm-559-zay-shop
                     <span class="navbar-sm-brand text-light text-decoration-none">Universidad Andina del Cusco</span>
                 </div>
                 <div>
-                    <a class="text-light" href="https://www.facebook.com/techcusco/" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.facebook.com/techcusco/" target="_blank"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
                     <a class="text-light" href="https://sites.google.com/uandina.edu.pe/studenttech" target="_blank"><i class="fas fa-globe fa-sm fa-fw me-2"></i></a>
                     <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
                 </div>
@@ -46,13 +39,12 @@ https://templatemo.com/tm-559-zay-shop
     </nav>
     <!-- Close Top Nav -->
 
-
     <!-- Header -->
     <nav class="navbar navbar-expand-lg navbar-light shadow">
         <div class="container d-flex justify-content-between align-items-center">
 
-            <a class="navbar-brand text-success logo h1 align-self-center" href="index.html">
-                Zay
+            <a class="navbar-brand logo h2 align-self-center" href="index.html">
+                <span style="color: #00417B; font-weight: 800;">StudentTech</span><span style="color: #00CEFE;">Club</span>
             </a>
 
             <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,19 +53,12 @@ https://templatemo.com/tm-559-zay-shop
 
             <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
                 <div class="flex-fill">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="shop.html">Shop</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
+                    <ul class="nav navbar-nav d-flex justify-content-center mx-lg-auto">
+                        <li class="nav-item"><a class="nav-link mx-2" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2 fw-bold" href="about.html" style="color: #00417B;">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="actividades.html">Proyectos (POI)</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="equipo.html">Equipo</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="contact.html">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="navbar align-self-center d-flex">
@@ -84,17 +69,16 @@ https://templatemo.com/tm-559-zay-shop
                         <i class="fa fa-fw fa-globe text-dark mr-3"></i>
                     </a>
                     <!-- Botón de Únete -->
-                    <a class="btn btn-success text-white fw-bold px-4 rounded-pill" href="contact.html" style="background-color: #EE2A6E !important; border:none;">
+                    <a class="btn btn-success text-white fw-bold px-4 rounded-pill shadow-sm" href="contact.html" style="background-color: #EE2A6E !important; border:none;">
                         Únete al Club
                     </a>
                 </div>
             </div>
-
         </div>
     </nav>
     <!-- Close Header -->
 
-    <!-- Modal -->
+    <!-- Modal de Búsqueda -->
     <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg" role="document">
             <div class="w-100 pt-1 mb-5 text-right">
@@ -102,7 +86,7 @@ https://templatemo.com/tm-559-zay-shop
             </div>
             <form action="" method="get" class="modal-content modal-body border-0 p-0">
                 <div class="input-group mb-2">
-                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Buscar en el ecosistema...">
                     <button type="submit" class="input-group-text bg-success text-light">
                         <i class="fa fa-fw fa-search text-white"></i>
                     </button>
@@ -111,42 +95,46 @@ https://templatemo.com/tm-559-zay-shop
         </div>
     </div>
 
-
-
-    <section class="stc-gradient py-5">
+    <!-- Start Banner Historia -->
+    <section class="stc-gradient py-5" style="background: linear-gradient(135deg, #00417B 0%, #00CEFE 100%);">
         <div class="container">
             <div class="row align-items-center py-5">
                 <div class="col-md-8 text-white">
-                    <h1 class="fw-bold">Nuestra Historia</h1>
-                    <p class="lead">
-                        Student Tech Club UAC nació como un círculo de Ingeniería de Sistemas en la Universidad Andina del Cusco. Inicialmente asociados con Microsoft, hoy buscamos transformar el club en un ecosistema tecnológico interuniversitario e interdisciplinario, enfocado en proyectos reales y emprendimiento.
+                    <h1 class="fw-bold mb-3 text-white">Nuestra Historia</h1>
+                    <p class="lead" style="text-align: justify;">
+                        Student Tech Club UAC nació como un círculo de Ingeniería de Sistemas en la Universidad Andina del Cusco. Inicialmente asociados con Microsoft, hoy buscamos transformar el club en un ecosistema tecnológico interuniversitario e interdisciplinario, enfocado en proyectos reales, generación de oportunidades profesionales y emprendimiento.
                     </p>
                 </div>
-                <div class="col-md-4">
-                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=500&q=80" alt="Team" class="img-fluid rounded-circle shadow">
+                <div class="col-md-4 text-center">
+                    <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=500&q=80" alt="Team" class="img-fluid rounded-circle shadow-lg border border-4 border-light">
                 </div>
             </div>
         </div>
     </section>
     <!-- Close Banner -->
 
-    <!-- Start Section -->
+    <!-- Start Mision y Vision -->
     <section class="container py-5">
         <div class="row pt-5 pb-3">
             <div class="col-md-6 mb-4">
-                <h2 style="color: #EE2A6E;" class="fw-bold"><i class="material-icons align-middle">flag</i> Nuestra Misión</h2>
-                <p>Formar estudiantes universitarios en tecnologías emergentes, innovación y emprendimiento mediante proyectos aplicados, colaboraciones estratégicas y aprendizaje continuo.</p>
+                <div class="p-4 shadow-sm rounded bg-white h-100" style="border-top: 5px solid #EE2A6E;">
+                    <h2 style="color: #00417B;" class="fw-bold mb-3"><i class="material-icons align-middle me-2" style="color: #EE2A6E;">flag</i> Nuestra Misión</h2>
+                    <p class="text-muted" style="text-align: justify;">Formar estudiantes universitarios en tecnologías emergentes, innovación y emprendimiento mediante proyectos aplicados, colaboraciones estratégicas y aprendizaje continuo, desarrollando competencias para generar impacto tangible en la comunidad.</p>
+                </div>
             </div>
             <div class="col-md-6 mb-4">
-                <h2 style="color: #00CEFE;" class="fw-bold"><i class="material-icons align-middle">visibility</i> Nuestra Visión</h2>
-                <p>Ser un ecosistema tecnológico interuniversitario y multidisciplinario de referencia, reconocido por su capacidad de generar innovación, oportunidades profesionales y proyectos tecnológicos de alto impacto.</p>
+                <div class="p-4 shadow-sm rounded bg-white h-100" style="border-top: 5px solid #00CEFE;">
+                    <h2 style="color: #00417B;" class="fw-bold mb-3"><i class="material-icons align-middle me-2" style="color: #00CEFE;">visibility</i> Nuestra Visión</h2>
+                    <p class="text-muted" style="text-align: justify;">Ser un ecosistema tecnológico interuniversitario y multidisciplinario de referencia, reconocido por su capacidad de generar innovación, oportunidades profesionales y proyectos tecnológicos de alto impacto, formando líderes capaces de transformar la industria.</p>
+                </div>
             </div>
         </div>
 
         <!-- Reglas del Club -->
-        <div class="row mt-5">
-            <div class="col-12 text-center mb-4">
+        <div class="row mt-5 bg-light p-5 rounded shadow-sm">
+            <div class="col-12 text-center mb-5">
                 <h2 style="color: #00417B;" class="fw-bold">Reglas de Nuestro Ecosistema</h2>
+                <p class="text-muted">Disciplina + Comunicación + Proactividad + Resultados + Colaboración = Crecimiento</p>
             </div>
             <div class="col-md-6">
                 <div class="rule-card"><strong>1. Compromiso y Disciplina:</strong> Cumple con tareas y asiste a reuniones.</div>
@@ -163,112 +151,107 @@ https://templatemo.com/tm-559-zay-shop
             </div>
         </div>
     </section>
-    <!-- End Section -->
+    <!-- End Mision y Vision -->
 
-    <!-- Start Brands -->
-    <section class="bg-light py-5">
+    <!-- Start Aliados Estratégicos (Reemplazo de Our Brands) -->
+    <section class="bg-white py-5 border-top">
         <div class="container my-4">
             <div class="row text-center py-3">
-                <div class="col-lg-6 m-auto">
-                    <h1 class="h1">Our Brands</h1>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        Lorem ipsum dolor sit amet.
+                <div class="col-lg-8 m-auto">
+                    <h1 class="h2 fw-bold" style="color: #00417B;">Nuestros Aliados Estratégicos</h1>
+                    <p class="text-muted">
+                        Trabajamos en conjunto con empresas e instituciones líderes que respaldan el desarrollo tecnológico e impulsan el crecimiento de nuestro ecosistema.
                     </p>
                 </div>
-                <div class="col-lg-9 m-auto tempaltemo-carousel">
+                
+                <!-- Contenedor del Carrusel de Aliados -->
+                <div class="col-lg-12 m-auto tempaltemo-carousel mt-4">
                     <div class="row d-flex flex-row">
-                        <!--Controls-->
+                        <!-- Controls -->
                         <div class="col-1 align-self-center">
                             <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="prev">
-                                <i class="text-light fas fa-chevron-left"></i>
+                                <i class="text-muted fas fa-chevron-left"></i>
                             </a>
                         </div>
-                        <!--End Controls-->
-
-                        <!--Carousel Wrapper-->
+                        
+                        <!-- Carousel Wrapper -->
                         <div class="col">
                             <div class="carousel slide carousel-multi-item pt-2 pt-md-0" id="templatemo-slide-brand" data-bs-ride="carousel">
-                                <!--Slides-->
+                                <!-- Slides -->
                                 <div class="carousel-inner product-links-wap" role="listbox">
 
-                                    <!--First slide-->
+                                    <!-- First slide -->
                                     <div class="carousel-item active">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                        <div class="row align-items-center justify-content-center">
+                                            <!-- Google -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fab fa-google" style="font-size: 50px; color: #DB4437;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">Google</h6>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                            <!-- NTT Data -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fas fa-network-wired" style="font-size: 50px; color: #00417B;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">NTT Data</h6>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
+                                            <!-- Datathon -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fas fa-database" style="font-size: 50px; color: #00CEFE;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">Datathon</h6>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
+                                            <!-- NASA Space Apps -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fas fa-user-astronaut" style="font-size: 50px; color: #1c2d5a;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">NASA Space</h6>
+                                            </div>
+                                            <!-- Incuba Andina -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fas fa-seedling" style="font-size: 50px; color: #59ab6e;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">Incuba Andina</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <!--End First slide-->
+                                    <!-- End First slide -->
 
-                                    <!--Second slide-->
+                                    <!-- Second slide -->
                                     <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
+                                        <div class="row align-items-center justify-content-center">
+                                            <!-- Lab Paqarina Wasi -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fas fa-microscope" style="font-size: 50px; color: #A255FF;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">Lab Paqarina Wasi</h6>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
+                                             <!-- UAC -->
+                                             <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fas fa-university" style="font-size: 50px; color: #00417B;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">UAC</h6>
                                             </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
+                                            <!-- Microsoft -->
+                                            <div class="col-4 col-md-2 p-3 text-center brand-hover">
+                                                <i class="fab fa-windows" style="font-size: 50px; color: #00a4ef;"></i>
+                                                <h6 class="mt-2 fw-bold text-dark">Microsoft</h6>
                                             </div>
                                         </div>
                                     </div>
-                                    <!--End Second slide-->
-
-                                    <!--Third slide-->
-                                    <div class="carousel-item">
-                                        <div class="row">
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_01.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_02.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_03.png" alt="Brand Logo"></a>
-                                            </div>
-                                            <div class="col-3 p-md-5">
-                                                <a href="#"><img class="img-fluid brand-img" src="assets/img/brand_04.png" alt="Brand Logo"></a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <!--End Third slide-->
+                                    <!-- End Second slide -->
 
                                 </div>
-                                <!--End Slides-->
+                                <!-- End Slides -->
                             </div>
                         </div>
-                        <!--End Carousel Wrapper-->
+                        <!-- End Carousel Wrapper -->
 
-                        <!--Controls-->
+                        <!-- Controls -->
                         <div class="col-1 align-self-center">
                             <a class="h1" href="#templatemo-slide-brand" role="button" data-bs-slide="next">
-                                <i class="text-light fas fa-chevron-right"></i>
+                                <i class="text-muted fas fa-chevron-right"></i>
                             </a>
                         </div>
-                        <!--End Controls-->
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--End Brands-->
-
+    <!-- End Aliados Estratégicos -->
 
     <!-- Start Footer -->
     <footer class="bg-dark" id="tempaltemo_footer" style="background-color: #00417B !important;">
@@ -313,8 +296,8 @@ https://templatemo.com/tm-559-zay-shop
         <div class="w-100 py-3" style="background-color: #002b52;">
             <div class="container">
                 <div class="row pt-2">
-                    <div class="col-12">
-                        <p class="text-left text-light text-center">
+                    <div class="col-12 text-center">
+                        <p class="text-light">
                             Copyright &copy; 2026 Student Tech Club UAC | Ecosistema Tecnológico
                         </p>
                     </div>
@@ -323,13 +306,25 @@ https://templatemo.com/tm-559-zay-shop
         </div>
     </footer>
     <!-- End Footer -->
-     
+
     <!-- Start Script -->
     <script src="assets/js/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/templatemo.js"></script>
     <script src="assets/js/custom.js"></script>
+    
+    <style>
+        /* Estilo para el hover de los aliados */
+        .brand-hover {
+            opacity: 0.6;
+            transition: all 0.3s ease;
+        }
+        .brand-hover:hover {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+    </style>
     <!-- End Script -->
 </body>
 
